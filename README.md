@@ -1,12 +1,17 @@
-# React + Vite
+# 👨‍🍳 AIchef – AI-Powered Recipe Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AIchef** is a web application that generates personalized recipes based on the ingredients you have on hand. Built with **React** and powered by **Hugging Face's Mistral model**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Ingredient-Based Recipe Generation**: Input a list of ingredients, and AIchef will suggest a recipe that incorporates them.
+- **AI Integration**: Utilizes Hugging Face's Mistral model to generate recipes in markdown format for easy rendering.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend**: React
+- **AI Integration**: Hugging Face's Mistral model via `@huggingface/inference`
